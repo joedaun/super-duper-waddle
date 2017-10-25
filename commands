@@ -1,0 +1,9 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+cd /home/pi/software\ scripts/
+sudo python listen_os.py
+sudo python sendcmd_os.py -o test.jpg
+
+#NOT A COMMAND
+test.jpg should be replaced with whatever you like to name the files
